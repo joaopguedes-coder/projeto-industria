@@ -1,16 +1,22 @@
 {
   "name": "projeto-industria",
   "version": "1.0.0",
+  "description": "API REST para gerenciamento de produtos industriais",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
+  "keywords": [
+    "api",
+    "node",
+    "express",
+    "crud",
+    "industria"
+  ],
   "dependencies": {
-    "express": "^5.2.1"
-  },
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0"
+  }
 }
