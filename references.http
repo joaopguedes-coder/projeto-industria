@@ -20,7 +20,7 @@ GET http://localhost:3000/produtos
 ###
 
 ### 4 - Buscar produto por ID
-GET http://localhost:3000/produtos/1783509374272
+GET http://localhost:3000/produtos/8
 
 ###
 
@@ -30,7 +30,7 @@ GET http://localhost:3000/buscar/Parafuso
 ###
 
 ### 6 - Atualizar produto
-PUT http://localhost:3000/produtos/1783509374272
+PUT http://localhost:3000/produtos/8
 Content-Type: application/json
 
 {
@@ -41,7 +41,7 @@ Content-Type: application/json
 ###
 
 ### 7 - Excluir produto
-DELETE http://localhost:3000/produtos/1783509374272
+DELETE http://localhost:3000/produtos/8
 
 ###
 
