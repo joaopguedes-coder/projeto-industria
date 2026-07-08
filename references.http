@@ -1,0 +1,49 @@
+### 1 - Página inicial
+GET http://localhost:3000/
+
+###
+
+### 2 - Cadastrar produto
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+    "nome": "Parafuso",
+    "preco": 15.90
+}
+
+###
+
+### 3 - Listar produtos
+GET http://localhost:3000/produtos
+
+###
+
+### 4 - Buscar produto por ID
+GET http://localhost:3000/produtos/1783509374272
+
+###
+
+### 5 - Buscar por nome
+GET http://localhost:3000/buscar/Parafuso
+
+###
+
+### 6 - Atualizar produto
+PUT http://localhost:3000/produtos/1783509374272
+Content-Type: application/json
+
+{
+    "nome": "Parafuso Atualizado",
+    "preco": 30
+}
+
+###
+
+### 7 - Excluir produto
+DELETE http://localhost:3000/produtos/1783509374272
+
+###
+
+### 8 - Estatísticas
+GET http://localhost:3000/estatisticas
